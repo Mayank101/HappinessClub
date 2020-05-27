@@ -456,6 +456,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media (max-width: 320px){
+  #hero {
+    height: 115vh;
+}
+}
+
 @-webkit-keyframes up-down {
   0% {
     transform: translateY(10px);
