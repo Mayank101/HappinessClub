@@ -459,7 +459,13 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 401px){
   #hero {
     height: 115vh;
+  }
 }
+
+@media (min-width: 402px) and (max-width: 991px) {
+  #hero {
+    height: 100vh;
+  }
 }
 
 @-webkit-keyframes up-down {
